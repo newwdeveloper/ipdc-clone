@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url("./utils/background-image.png"); /* Adjust path as needed */
+  background-size: cover; /* Makes sure the image covers the entire viewport */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevents tiling */
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+  align-items: center;
+  padding-bottom: 0;
+}
+
+.navbar > ul {
+  display: flex;
+  gap: 20px;
+}
+.navbar > ul li {
+  list-style: none;
+  font-size: 1.5vw;
+  cursor: pointer;
+  padding: 0.5vw;
+}
+.navbar > ul li:hover {
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+}
+.search {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vw;
+}
+.search input {
+  padding: 0.5vw;
+  border-radius: 15px;
+  border: 1px solid black;
+  width: 15vw;
+}
+.search img {
+  width: 2.5vw;
+  height: 2.5vw;
+  cursor: pointer;
+}
+.search img:hover {
+  scale: 1.1;
+}
+#btn {
+  padding: 1vw;
+  font-size: 1.3vw;
+  border-radius: 15px;
+  background-color: #ed017f;
+  color: white;
+}
+.main-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3vw;
+  padding-top: 0;
+  padding-bottom: 5px;
+  height: 80vh;
+  position: relative;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex: 1;
+  gap: 1.5vw;
+}
+.left h1,
+.left h4 {
+  margin: 0; /* Removes default margin */
+  text-align: start; /* Ensures text is centered */
+}
+.left h1 {
+  font-size: 5vw;
+  margin-bottom: 1vw;
+}
+.left h4 {
+  font-size: 2vw;
+  font-weight: lighter;
+  margin-bottom: 1.5vw;
+}
+.right {
+  display: flex;
+  flex: 1.5;
+  justify-content: center;
+}
+.herobox {
+  width: 100%;
+  max-width: auto;
+}
+.herobox img {
+  width: 100%;
+}
+.btn-box {
+  display: flex;
+  gap: 3vw;
+}
+.btn-box button {
+  padding: 1vw;
+  font-size: 1.5vw;
+  border-radius: 15px;
+  cursor: pointer;
+}
+#btn1 {
+  background-color: #ed017f;
+  color: white;
+  border: 0;
+}
+#btn1:active {
+  background-color: rgb(253, 110, 134);
+}
+#btn2 {
+  border: 2px solid #f492bb;
+  background-color: #fffeff;
+  padding: 10px 30px;
+  color: #ec70b2;
+}
+#btn2:active {
+  background-color: #ed017f;
+  color: white;
+}
+.footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 3vw;
+  gap: 2vw;
+  padding-top: 0.5vw;
+  width: 2vw;
+  height: 2vw;
+}
+.emergency {
+  display: flex;
+  align-items: center;
+}
+.emergency p {
+  font-size: 1.5vw;
+}
+.emergency img {
+  width: 2vw;
+  height: 2vw;
+}
+.footer-logos {
+  display: flex;
+  width: 2vw;
+  height: 2vw;
+  gap: 0.5vw;
+}
+.homeloan {
+  display: flex;
+  font-size: 1vw;
+  align-items: center;
+  position: absolute;
+  right: 5%;
+  padding: 0.5vw;
+  border-radius: 30px;
+  box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.homeloan:active {
+  background-color: #f492bb;
+}
+.carloan {
+  display: flex;
+  font-size: 1vw;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  padding: 0.5vw;
+  border-radius: 30px;
+  box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.carloan:active {
+  background-color: #f492bb;
+}
