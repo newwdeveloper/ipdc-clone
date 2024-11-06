@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ipdc-clone/static/css/main.0e005c0d.css",
+    "main.js": "/ipdc-clone/static/js/main.db65fa45.js",
+    "static/js/453.de6367db.chunk.js": "/ipdc-clone/static/js/453.de6367db.chunk.js",
+    "static/media/hero-image.png": "/ipdc-clone/static/media/hero-image.14d0ebd02ac211e574bb.png",
+    "static/media/background-image.png": "/ipdc-clone/static/media/background-image.bfb7c629e7b7a4f1dfef.png",
+    "index.html": "/ipdc-clone/index.html",
+    "main.0e005c0d.css.map": "/ipdc-clone/static/css/main.0e005c0d.css.map",
+    "main.db65fa45.js.map": "/ipdc-clone/static/js/main.db65fa45.js.map",
+    "453.de6367db.chunk.js.map": "/ipdc-clone/static/js/453.de6367db.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e005c0d.css",
+    "static/js/main.db65fa45.js"
+  ]
+}
